@@ -13,8 +13,8 @@ RSA (Rivest-Shamir-Adleman) is a widely used public-key encryption algorithm tha
 
 ## Usage
 
-1. Clone the repository or download the rsa_example.py file.
-2. Open a terminal or command prompt and navigate to the directory where you saved the rsa_example.py file.
+1. Clone the repository or download the diy_rsa.py file.
+2. Open a terminal or command prompt and navigate to the directory where you saved the diy_rsa.py file.
 3. Run the program by executing the command: python diy_rsa.py.
 
 ## Gist
