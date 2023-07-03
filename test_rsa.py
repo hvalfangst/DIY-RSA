@@ -1,6 +1,6 @@
-# diy_rsa_tests.py
+# test_rsa.py
 
-import unittest
+import unittest, random
 from diy_rsa import gcd, extended_gcd, mod_pow, is_prime, generate_rsa_key, rsa_encrypt, rsa_decrypt
 
 
@@ -8,7 +8,7 @@ class RSATestCase(unittest.TestCase):
 
     def test_rsa_encrypt_and_decrypt(self):
         n, e, d = generate_rsa_key(64)
-        plaintext = 42
+        plaintext = random.randrange(1, 2000)
         print("Plain text:", plaintext)
         ciphertext = rsa_encrypt(plaintext, e, n)
         print("Cipher text:", ciphertext)
